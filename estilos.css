@@ -1,0 +1,53 @@
+
+    body {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .title {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-style: italic;
+    }
+
+    .contenedorMayor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: gold;
+      height: 500px;
+      width: 500px;
+    }
+
+    .contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contenedorNumero .estiloNumero {
+      font-size: 30px;
+      color: black;
+      font-weight: bolder;
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      border-color: black;
+    }
+
+    button {
+      font-size: 30px;
+      padding: 13px;
+      margin: 5px;
+      border-radius: 5px;
+      box-shadow: 3px 2px 2px black;
+      background-color: orangered;
+      color: white;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+
+
