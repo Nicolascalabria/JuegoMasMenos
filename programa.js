@@ -8,6 +8,7 @@ function Jugar(seleccion) {
   let nuevoNumero = getRandomInt(1, 10);
   console.log(numeroInicial);
   console.log(nuevoNumero);
+  console.log("hola");
   contenedorNumero.innerHTML = nuevoNumero;
 
   let esMayor = nuevoNumero >= numeroInicial;
